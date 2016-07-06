@@ -21,6 +21,7 @@
 		86792A841D2D41EF007955F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 86792A831D2D41EF007955F5 /* README.md */; };
 		86792A931D2D577A007955F5 /* QIQWaterflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86792A901D2D577A007955F5 /* QIQWaterflowView.m */; };
 		86792A941D2D577A007955F5 /* QIQWaterflowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86792A921D2D577A007955F5 /* QIQWaterflowViewCell.m */; };
+		86792A9D1D2D5DC2007955F5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 86792A9C1D2D5DC2007955F5 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8625CEF7BBC72EFDAA69ECE0 /* Pods-Waterflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Waterflow/Pods-Waterflow.debug.xcconfig"; sourceTree = "<group>"; };
 		865D3FDA1D2CF1A800A9CE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		865D3FE51D2CF1A800A9CE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865D3FE81D2CF1A800A9CE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,10 +63,10 @@
 		86792A901D2D577A007955F5 /* QIQWaterflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIQWaterflowView.m; sourceTree = "<group>"; };
 		86792A911D2D577A007955F5 /* QIQWaterflowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIQWaterflowViewCell.h; sourceTree = "<group>"; };
 		86792A921D2D577A007955F5 /* QIQWaterflowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIQWaterflowViewCell.m; sourceTree = "<group>"; };
-		86C8CCAD1D2D5690002B1A06 /* Waterflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Waterflow.app; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/Waterflow.app"; sourceTree = "<absolute>"; };
-		86C8CCAE1D2D5690002B1A06 /* WaterflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterflowTests.xctest; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/WaterflowTests.xctest"; sourceTree = "<absolute>"; };
-		86C8CCAF1D2D5690002B1A06 /* WaterflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterflowUITests.xctest; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/WaterflowUITests.xctest"; sourceTree = "<absolute>"; };
-		8FDE819C4AB7CFEDF898813A /* Pods-Waterflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterflow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Waterflow/Pods-Waterflow.release.xcconfig"; sourceTree = "<group>"; };
+		86792A991D2D5D07007955F5 /* WaterflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterflowTests.xctest; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/WaterflowTests.xctest"; sourceTree = "<absolute>"; };
+		86792A9A1D2D5D07007955F5 /* WaterflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterflowUITests.xctest; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/WaterflowUITests.xctest"; sourceTree = "<absolute>"; };
+		86792A9B1D2D5D67007955F5 /* Waterflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Waterflow.app; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/Waterflow.app"; sourceTree = "<absolute>"; };
+		86792A9C1D2D5DC2007955F5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,21 +94,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		192742644A3936A2B743319E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8625CEF7BBC72EFDAA69ECE0 /* Pods-Waterflow.debug.xcconfig */,
-				8FDE819C4AB7CFEDF898813A /* Pods-Waterflow.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		865D3FCD1D2CF1A800A9CE46 = {
 			isa = PBXGroup;
 			children = (
+				86792A9C1D2D5DC2007955F5 /* Podfile */,
 				86792A831D2D41EF007955F5 /* README.md */,
 				865D3FD81D2CF1A800A9CE46 /* Waterflow */,
-				192742644A3936A2B743319E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,7 +174,7 @@
 			);
 			name = Waterflow;
 			productName = Waterflow;
-			productReference = 86C8CCAD1D2D5690002B1A06 /* Waterflow.app */;
+			productReference = 86792A9B1D2D5D67007955F5 /* Waterflow.app */;
 			productType = "com.apple.product-type.application";
 		};
 		865D3FEE1D2CF1A800A9CE46 /* WaterflowTests */ = {
@@ -201,7 +192,7 @@
 			);
 			name = WaterflowTests;
 			productName = WaterflowTests;
-			productReference = 86C8CCAE1D2D5690002B1A06 /* WaterflowTests.xctest */;
+			productReference = 86792A991D2D5D07007955F5 /* WaterflowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		865D3FF91D2CF1A800A9CE46 /* WaterflowUITests */ = {
@@ -219,7 +210,7 @@
 			);
 			name = WaterflowUITests;
 			productName = WaterflowUITests;
-			productReference = 86C8CCAF1D2D5690002B1A06 /* WaterflowUITests.xctest */;
+			productReference = 86792A9A1D2D5D07007955F5 /* WaterflowUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -275,6 +266,7 @@
 				865D3FE61D2CF1A800A9CE46 /* Assets.xcassets in Resources */,
 				865D40BE1D2CF3F700A9CE46 /* 2.plist in Resources */,
 				865D40B71D2CF2E300A9CE46 /* Main.storyboard in Resources */,
+				86792A9D1D2D5DC2007955F5 /* Podfile in Resources */,
 				865D40BF1D2CF3F700A9CE46 /* 3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +476,6 @@
 		};
 		865D40041D2CF1A800A9CE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8625CEF7BBC72EFDAA69ECE0 /* Pods-Waterflow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -499,7 +490,6 @@
 		};
 		865D40051D2CF1A800A9CE46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FDE819C4AB7CFEDF898813A /* Pods-Waterflow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
