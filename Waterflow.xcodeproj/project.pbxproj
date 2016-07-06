@@ -10,8 +10,6 @@
 		865D3FDB1D2CF1A800A9CE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D3FDA1D2CF1A800A9CE46 /* main.m */; };
 		865D3FE61D2CF1A800A9CE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865D3FE51D2CF1A800A9CE46 /* Assets.xcassets */; };
 		865D3FE91D2CF1A800A9CE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865D3FE71D2CF1A800A9CE46 /* LaunchScreen.storyboard */; };
-		865D3FF41D2CF1A800A9CE46 /* WaterflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D3FF31D2CF1A800A9CE46 /* WaterflowTests.m */; };
-		865D3FFF1D2CF1A800A9CE46 /* WaterflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D3FFE1D2CF1A800A9CE46 /* WaterflowUITests.m */; };
 		865D40791D2CF1E800A9CE46 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D400F1D2CF1E800A9CE46 /* MJDictionaryCache.m */; };
 		865D407A1D2CF1E800A9CE46 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D40121D2CF1E800A9CE46 /* MJExtensionConst.m */; };
 		865D407B1D2CF1E800A9CE46 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D40141D2CF1E800A9CE46 /* MJFoundation.m */; };
@@ -88,17 +86,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		865D3FD61D2CF1A800A9CE46 /* Waterflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865D3FD61D2CF1A800A9CE46 /* Waterflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Waterflow.app; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/Waterflow.app"; sourceTree = "<absolute>"; };
 		865D3FDA1D2CF1A800A9CE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		865D3FE51D2CF1A800A9CE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865D3FE81D2CF1A800A9CE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865D3FEA1D2CF1A800A9CE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		865D3FEF1D2CF1A800A9CE46 /* WaterflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		865D3FF31D2CF1A800A9CE46 /* WaterflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterflowTests.m; sourceTree = "<group>"; };
-		865D3FF51D2CF1A800A9CE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		865D3FFA1D2CF1A800A9CE46 /* WaterflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		865D3FFE1D2CF1A800A9CE46 /* WaterflowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterflowUITests.m; sourceTree = "<group>"; };
-		865D40001D2CF1A800A9CE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865D3FEF1D2CF1A800A9CE46 /* WaterflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterflowTests.xctest; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/WaterflowTests.xctest"; sourceTree = "<absolute>"; };
+		865D3FFA1D2CF1A800A9CE46 /* WaterflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaterflowUITests.xctest; path = "/Users/qianqi/Desktop/MyDemo/QIQWaterflow/build/Debug-iphoneos/WaterflowUITests.xctest"; sourceTree = "<absolute>"; };
 		865D400E1D2CF1E800A9CE46 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
 		865D400F1D2CF1E800A9CE46 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
 		865D40101D2CF1E800A9CE46 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
@@ -240,20 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				865D3FD81D2CF1A800A9CE46 /* Waterflow */,
-				865D3FF21D2CF1A800A9CE46 /* WaterflowTests */,
-				865D3FFD1D2CF1A800A9CE46 /* WaterflowUITests */,
-				865D3FD71D2CF1A800A9CE46 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		865D3FD71D2CF1A800A9CE46 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				865D3FD61D2CF1A800A9CE46 /* Waterflow.app */,
-				865D3FEF1D2CF1A800A9CE46 /* WaterflowTests.xctest */,
-				865D3FFA1D2CF1A800A9CE46 /* WaterflowUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		865D3FD81D2CF1A800A9CE46 /* Waterflow */ = {
@@ -278,24 +259,6 @@
 				865D3FDA1D2CF1A800A9CE46 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		865D3FF21D2CF1A800A9CE46 /* WaterflowTests */ = {
-			isa = PBXGroup;
-			children = (
-				865D3FF31D2CF1A800A9CE46 /* WaterflowTests.m */,
-				865D3FF51D2CF1A800A9CE46 /* Info.plist */,
-			);
-			path = WaterflowTests;
-			sourceTree = "<group>";
-		};
-		865D3FFD1D2CF1A800A9CE46 /* WaterflowUITests */ = {
-			isa = PBXGroup;
-			children = (
-				865D3FFE1D2CF1A800A9CE46 /* WaterflowUITests.m */,
-				865D40001D2CF1A800A9CE46 /* Info.plist */,
-			);
-			path = WaterflowUITests;
 			sourceTree = "<group>";
 		};
 		865D400C1D2CF1E800A9CE46 /* Libs */ = {
@@ -587,7 +550,7 @@
 				Base,
 			);
 			mainGroup = 865D3FCD1D2CF1A800A9CE46;
-			productRefGroup = 865D3FD71D2CF1A800A9CE46 /* Products */;
+			productRefGroup = 865D3FCD1D2CF1A800A9CE46;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -693,7 +656,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				865D3FF41D2CF1A800A9CE46 /* WaterflowTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,7 +663,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				865D3FFF1D2CF1A800A9CE46 /* WaterflowUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
