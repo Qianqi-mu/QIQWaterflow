@@ -1,0 +1,6 @@
+Podfile.lock
+Pods/*
+Waterflow.xcworkspace
+.DS_Store
+Waterflow/.DS_Store
+Waterflow/Other/.DS_Store
