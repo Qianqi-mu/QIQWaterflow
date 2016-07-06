@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35EAA03F88A698E7C42E3F1F /* libPods-Waterflow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCED8D52CF4ED7EC42715B0 /* libPods-Waterflow.a */; };
 		865D3FDB1D2CF1A800A9CE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D3FDA1D2CF1A800A9CE46 /* main.m */; };
 		865D3FE61D2CF1A800A9CE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865D3FE51D2CF1A800A9CE46 /* Assets.xcassets */; };
 		865D3FE91D2CF1A800A9CE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865D3FE71D2CF1A800A9CE46 /* LaunchScreen.storyboard */; };
@@ -42,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7DCED8D52CF4ED7EC42715B0 /* libPods-Waterflow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waterflow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8625CEF7BBC72EFDAA69ECE0 /* Pods-Waterflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Waterflow/Pods-Waterflow.debug.xcconfig"; sourceTree = "<group>"; };
 		865D3FDA1D2CF1A800A9CE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		865D3FE51D2CF1A800A9CE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35EAA03F88A698E7C42E3F1F /* libPods-Waterflow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,21 +103,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		58470C54FF9FAD399658FA61 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DCED8D52CF4ED7EC42715B0 /* libPods-Waterflow.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		865D3FCD1D2CF1A800A9CE46 = {
 			isa = PBXGroup;
 			children = (
 				86792A831D2D41EF007955F5 /* README.md */,
 				865D3FD81D2CF1A800A9CE46 /* Waterflow */,
 				192742644A3936A2B743319E /* Pods */,
-				58470C54FF9FAD399658FA61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
