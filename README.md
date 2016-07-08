@@ -3,7 +3,7 @@
 QIQWaterflow是一个类似*UITableView*原理实现的瀑布流，使用方法也跟*UITableView*类似。下面会详细描述QIQWaterflow的实现原理和使用。
 
 ####声明
-QIQWaterflow是本人借鉴网上某位大神的思路实现的，并不属于原创。这个Demo，希望能够让更多的人了解*UITableView*的底层实现原理。
+QIQWaterflow是本人借鉴网上某位大神的思路实现的，并不属于原创。
 
 ## 实现原理
 - 新建两个类
